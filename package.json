@@ -1,0 +1,24 @@
+{
+    "name": "air_madness",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RDZobrist/air_madness.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RDZobrist/air_madness/issues"
+    },
+    "homepage": "https://github.com/RDZobrist/air_madness#readme",
+    "dependencies": {
+        "compression": "^1.7.4",
+        "express": "^4.17.2"
+    }
+}
