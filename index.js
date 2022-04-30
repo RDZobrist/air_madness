@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'))
 })
 app.get('/about', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'))
+    res.sendFile(path.join(__dirname, 'about.html'))
 });
 app.get('/air-madness-empowerment-night', (req, res) => {
     res.sendFile(path.join(__dirname, 'air-madness-empowerment-night.html'))
@@ -20,9 +20,13 @@ app.get('/air-madness-empowerment-night', (req, res) => {
 app.get('/attractions', (req, res) => {
     res.sendFile(path.join(__dirname, 'attractions.html'))
 });
+app.get('/parties', (req, res) => {
+    res.sendFile(path.join(__dirname, 'birthday-parties.html'))
+});
 app.get('/birthday-parties', (req, res) => {
     res.sendFile(path.join(__dirname, 'birthday-parties.html'))
 });
+
 app.get('/contact', (req, res) => {
     res.sendFile(path.join(__dirname, 'contact.html'))
 });
@@ -44,9 +48,7 @@ app.get('/prices-and-gift-cards', (req, res) => {
 app.get('/private-parties', (req, res) => {
     res.sendFile(path.join(__dirname, 'private-parties.html'))
 });
-app.get('/reviews', (req, res) => {
-    res.sendFile(path.join(__dirname, 'reviews.html'))
-});
+
 app.get('/trampoline-jumps', (req, res) => {
     res.sendFile(path.join(__dirname, 'trampoline-jumps.html'))
 });
